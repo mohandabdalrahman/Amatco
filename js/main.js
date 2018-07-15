@@ -26,10 +26,19 @@
   $(window).scroll(function () {
     if ($(this).scrollTop() > 50)  {
         $('.opaque-navbar').addClass('opaque');
+        $('.scrollTop').fadeIn('slow');
     } else {
         $('.opaque-navbar').removeClass('opaque');
+        $('.scrollTop').fadeOut('slow');
     }
 });
+
+$('.scrollTop').click(function(){
+
+$('html,body').animate({scrollTop:0},100)
+
+});
+
 
 
   });
