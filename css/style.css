@@ -17,6 +17,7 @@
     margin-left: 28% !important;
 }
 
+
 #navbar .navbar .navbar-nav li {
     padding-left: 10px;
 }
@@ -25,6 +26,8 @@
     text-transform: uppercase;
     color: #847f7f;
 }
+
+
 
 #navbar .navbar .navbar-nav .fa-home {
     color: #19234a;
@@ -60,6 +63,7 @@ border: 0;
 
 .opaque-navbar.opaque {
     height: 70px;
+    -webkit-transition: background-color .5s ease 0s;
     transition: background-color .5s ease 0s;
     background-color: white !important;
     padding-top: 0 !important;
@@ -78,7 +82,17 @@ border: 0;
 }
 
 .modal-footer {
-    justify-content: flex-start !important;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+}
+
+.modal-footer button
+{
+
+    background-color: #5d5858;
+    width: 120px;
+    border: 0;
 }
 
 /* start culture */
@@ -185,9 +199,19 @@ border: 0;
     background-color: #fff;
     border-radius: 5px;
     color: #fff;
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s, -webkit-transform .2s ease-in-out; /* Animation */
+    overflow: hidden;
 
-    /* box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5) !important; */
 }
+
+#companies .item .company_content:hover
+{
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+} 
 
 #companies .item .company_content img {
     width: 100%;
@@ -427,7 +451,6 @@ footer .Social a {
     display: inline-block;
     width: 40px;
     height: 40px;
-    -webkit-border-radius: 50%;
     border-radius: 50%;
     background-color: #990000;
     text-align: center;

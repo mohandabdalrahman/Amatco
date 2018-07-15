@@ -82,6 +82,15 @@ margin-right: 5px;
     margin-top: 12px;
 }
 
+
+#contact .form_contact button
+{
+    
+    background-color: #5d5858;
+    width: 120px;
+    border: 0;
+}
+
 #map
 {
     height: 500px;
