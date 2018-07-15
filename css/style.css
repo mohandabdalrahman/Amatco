@@ -1,0 +1,554 @@
+/* start topbar */
+
+/* #topbar {
+    background-color: #19234a;
+    color: #fff;
+}
+
+#topbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.topbar_contact a {
+    color: white;
+}
+
+#topbar ul li {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+#topbar .topbar_sociallinks {
+    margin-top: 4px;
+}
+
+#topbar .topbar_sociallinks ul {
+    text-align: left;
+}
+
+#topbar .topbar_sociallinks ul li a i {
+    color: #fff;
+}
+
+#topbar .topbar_contact {
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
+#topbar .topbar_contact ul {
+    text-align: right;
+}
+
+#topbar .topbar_contact ul li span {
+    padding-left: 5px;
+}
+
+#topbar .topbar_contact .signin_language {
+    border-left: 1px solid #fff;
+}
+
+#topbar .topbar_contact .signin_language button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#topbar .topbar_contact button {
+    color: #fff
+}
+
+#topbar .topbar_contact .btn_language {
+    text-decoration: none;
+} */
+
+/* start navbar */
+
+#navbar 
+{
+    margin-top: 5%;
+}
+
+#navbar .navbar  .navbar-brand
+{
+    margin-left: 12%;
+    margin-top: -1%;
+}
+
+#navbar .navbar .navbar-nav
+{
+    margin-left: 28% !important;
+}
+
+#navbar .navbar .navbar-nav li {
+    padding-left: 10px;
+}
+
+#navbar .navbar .navbar-nav li a {
+    text-transform: uppercase;
+    color: #847f7f;
+}
+
+#navbar .navbar .navbar-nav .fa-home {
+    color: #19234a;
+}
+
+#navbar .navbar .signin_language
+{
+    border-left: 1px solid;
+
+ 
+}
+
+#navbar .navbar .signin_language button
+{
+    background: none;
+border: 0;
+    cursor: pointer;
+    outline: none;
+    color: #847f7f;
+    font-weight: 500;
+}
+
+#navbar .navbar .signin_language a
+{
+    color: #847f7f;
+}
+
+/* start amatco */
+
+#amatco .carousel-inner .carousel-item img {
+    height: 700px;
+}
+
+.opaque-navbar.opaque {
+    height: 70px;
+    transition: background-color .5s ease 0s;
+    background-color: white !important;
+    padding-top: 0 !important;
+}
+
+/* start slider */
+
+#slider .container-fluid {
+    padding: 0 !important;
+}
+
+/* start model */
+
+.modal .model_image {
+    margin-left: 20%;
+}
+
+.modal-footer {
+    justify-content: flex-start !important;
+}
+
+/* start culture */
+
+#culture .culture_header {
+    text-align: left;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#culture .culture_header  span
+{
+
+    font-size: 15px;
+}
+
+#culture .culture_header h4 {
+ 
+    position: relative;
+    color: #151515;
+    font-size: 27px;
+    margin-top: 1%;
+    margin-bottom: 6%;
+}
+
+#culture .culture_header span {
+    color: #ad1818;
+}
+
+#culture .culture_header h4::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    top: 107%;
+    width: 81px;
+    height: 2px;
+    background-color: #ad1818;
+}
+
+#culture .culture_image {
+    margin-top: -19%;
+    margin-left: 19%;
+    width: 388px;
+}
+
+#culture .culture_image img {
+    width: 100%;
+}
+
+/* start companies */
+
+#companies {
+    background-color: #b5b2b259;
+    margin-top: 4%;
+    position: relative;
+}
+
+#companies  .owl-prev
+{
+    position: absolute;
+    top: 26%;
+    left: -11%;
+    outline: none;
+}
+
+#companies  .owl-next
+{
+    position: absolute;
+    top: 26%;
+    right: -11%;
+    outline: none;
+}
+
+#companies .companies_header {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#companies .companies_header span {
+    color: #ad1818;
+}
+
+#companies .companies_header h4 {
+    text-transform: uppercase;
+    color: #151515;
+    letter-spacing: 2px;
+    position: relative;
+}
+
+#companies .companies_header h4::after {
+    content: '';
+    position: absolute;
+    left: 47%;
+    top: 126%;
+    width: 64px;
+    height: 2px;
+    background-color: #ad1818;
+}
+
+#companies .item .company_content {
+    width: 258px;
+    height: 395px;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #fff;
+
+    /* box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5) !important; */
+}
+
+#companies .item .company_content img {
+    width: 100%;
+    height: 202px;
+}
+/* 
+#companies .item .company_content .company_info .company_icon {
+    width: 20%;
+    float: left;
+} */
+
+/* #companies .item .company_content .company_info .company_icon img {
+    width: 50%;
+    height: 33px;
+    display: inline-block;
+    margin-left: 14px;
+    margin-top: 5px;
+} */
+
+#companies .item .company_content .company_info .company_text {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+#companies .item .company_content .company_info .company_text h3 {
+    color: #000;
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+#companies .item .company_content .company_info .company_text p {
+    font-size: 15px;
+    color: #999;
+    height: 80px;
+}
+
+
+#companies .item .company_content .company_info .company_text a
+{
+    background-color: #5d5858;
+    color: #fff;
+    display: inline-block;
+    width: 123px;
+    text-decoration: none;
+    padding: 5px;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+#companies .owl-nav button {
+    background-color: #FFF;
+    display: inline-block;
+    width: 50px;
+    height: 53px;
+    margin-top: 3%;
+    background-color: #FFF;
+}
+
+
+#companies .owl-carousel .owl-nav.disabled
+{
+    display: block !important;
+}
+
+/* start mission and vision */
+
+#misson_vision {
+    margin-top: 4%;
+    background-color: #e5e4e4;
+    padding: 52px;
+}
+
+#misson_vision .service {
+    text-align: center;
+}
+
+#misson_vision .service .service_icon {
+    display: inline-block;
+    border: 1px dashed #990000;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+#misson_vision .service .service_icon i {
+    position: absolute;
+    left: 37%;
+    top: 41%;
+    font-size: 25px;
+    color: #828080;
+}
+
+#misson_vision .service h3 {
+    font-size: 20px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+#misson_vision .service p {
+    color: #807d7d;
+}
+
+#misson_vision .service a {
+    background-color: #5d5858;
+    color: #fff;
+    display: inline-block;
+    width: 123px;
+    text-decoration: none;
+    padding: 5px;
+    position: relative;
+    padding-right: 11px;
+    border-radius: 5px;
+}
+
+#misson_vision .service a i {
+    font-size: 13px;
+    position: absolute;
+    left: 100px;
+    top: 12px;
+}
+
+/* start clients */
+
+#brands {
+    background-color: #fff;
+    padding-bottom: 24px;
+}
+
+#brands .brands_header {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+#brands .brands_header h4 {
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 3px;
+    color: #151515;
+}
+
+#brands .brands_header h4::after {
+    content: '';
+    position: absolute;
+    left: 47%;
+    top: 126%;
+    width: 64px;
+    height: 2px;
+    background-color: #ad1818;
+}
+
+#brands .brands_header span {
+    color: #ad1818;
+}
+
+.owl-carousel {
+    margin-bottom: 4%;
+    /* margin-top: 2%; */
+}
+
+.owl-carousel a {
+    display: inline-block;
+    width: 140px;
+}
+
+
+
+/* start footer */
+
+/* start footer */
+
+footer {
+    background-color: #4c4949;
+    height: 500px;
+    padding-top: 77px;
+}
+
+footer  h4
+{
+    color: #fff;
+}
+
+
+footer p
+{
+    color: #fff;
+}
+
+footer .col-3 {
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    padding-left: 30px;
+}
+
+footer .col-3 h3 {
+    font-size: 18px;
+    margin-bottom: 14%;
+}
+
+footer .col-3:first-of-type p {
+    color: #fff;
+    font-size: 13px;
+}
+
+.FooterLogo {
+    margin-top: -34px;
+    margin-bottom: -40px;
+}
+
+footer h3 {
+    color: white;
+}
+
+input {
+    background-color: #4c4949;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.Useful-links a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.Useful-links hr {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 5px;
+}
+
+footer .Social a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #990000;
+    text-align: center;
+    color: #fff;
+    margin-right: 5px;
+}
+
+footer .Social p {
+    font-size: 13px;
+    margin-top: 16%;
+    line-height: 1.8;
+}
+
+footer .Social a i {
+    margin-top: 12px;
+}
+
+.SendEmail .fa-envelope
+{
+    display: block !important;
+    font-size: large !important;    
+  
+    color: white;
+    height: 30px;
+    margin-top: -8px; 
+    margin-left: 1px;
+}
+
+.SendEmail {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    width: 65px;
+    height: 30px;
+}
+
+.servimg {
+    width: 70%;
+}
+
+/* footerCopyRight */
+
+.footerCopyRight {
+    background-color: #4c4949;
+    height: 80px;
+}
+
+.footerCopyRight h5 {
+    color: #888888;
+    margin-left: 77px;
+    font-size: 14px;
+    margin-top: 35px;
+}
+
+.navbar.bg-dark {
+    background-color: rgba(255, 0, 0, 0);
+    padding-top: 20px;
+}

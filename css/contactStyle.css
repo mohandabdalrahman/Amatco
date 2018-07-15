@@ -1,0 +1,109 @@
+
+body
+{
+    overflow-x: hidden
+}
+header .image_header img
+{
+    width: 100%;
+}
+
+
+header  .container-fluid
+{
+    padding: 0 !important;
+}
+
+/* start contact */
+
+#contact
+{
+    margin-bottom: 4%;
+}
+
+#contact .col-6:nth-of-type(2)
+{
+    padding-left: 165px;
+}
+
+#contact .contact_header
+{
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+
+#contact .contact_header h2
+{
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 3px;
+}
+
+
+
+#contact .contact_header h2::after
+{
+    content: '';
+    position: absolute;
+    left: 45%;
+    top: 127%;
+    width: 108px;
+    height: 3px;
+    background-color: red;
+}
+
+
+#contact .contact_info h3
+{
+    font-size: 32px;
+    text-transform: capitalize;
+}
+
+
+
+#contact .Social a
+{
+    display: inline-block;
+width: 40px;
+height: 40px;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+background-color: #990000;
+text-align: center;
+color: #fff;
+margin-right: 5px;
+}
+
+
+#contact .Social a i
+{
+    margin-top: 12px;
+}
+
+#map
+{
+    height: 500px;
+}
+
+#map .container-fluid
+{
+    padding: 0;
+}
+
+#map iframe
+{
+    width: 100%;
+   
+}
+
+
+/* #map-container {
+    height: 240px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+ */
+
